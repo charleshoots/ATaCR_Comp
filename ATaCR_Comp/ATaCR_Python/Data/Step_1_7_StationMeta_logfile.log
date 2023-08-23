@@ -1,0 +1,69 @@
+Warning: Output Files ./Data/sta_query.csv and ./Data/sta_query.pkl already exist. These will be overwritten...
+Warning: one of lat,lon,minr,maxr were not set. All values reset to None. 
+ 
+Warning: No Time Range Specified for Search
+ 
+Station/Channel Search Parameters:
+   Network:  7D
+   Stations: M01A,M02A,M07A,M08A
+   Locations: *
+   Channels: ?H?
+   Channel Rank: HH,BH,LH
+ 
+Output Files: ./Data/sta_query.csv and ./Data/sta_query.pkl
+ 
+Initializing Client (IRIS)...Done
+
+Querying client...Done
+
+Search Complete: 
+  4 stations in 1 networks
+ 
+Network: 7D
+   Station: M01A
+     Lon, Lat, Elev: -126.7221,  49.1504,  -0.133
+     Start Date: 2011-10-18 00:00:00
+     End Date:   2012-07-16 23:59:59
+     Status:     open
+       Selected Channel: BH
+         Locations:  --
+         Start Date: 2011-10-18 04:54:00
+         End Date:   2012-07-16 21:24:00
+    Added as: 7D.M01A
+
+   Station: M02A
+     Lon, Lat, Elev: -125.6004,  48.3070,  -0.139
+     Start Date: 2011-10-18 00:00:00
+     End Date:   2012-07-16 23:59:59
+     Status:     open
+       Selected Channel: BH
+         Locations:  --
+         Start Date: 2011-10-18 02:30:00
+         End Date:   2012-07-16 12:00:00
+    Added as: 7D.M02A
+
+   Station: M07A
+     Lon, Lat, Elev: -125.1168,  44.8987,  -1.357
+     Start Date: 2011-10-15 00:00:00
+     End Date:   2012-07-15 23:59:59
+     Status:     open
+       Selected Channel: BH
+         Locations:  --
+         Start Date: 2011-10-15 23:10:00
+         End Date:   2012-07-15 19:53:00
+    Added as: 7D.M07A
+
+   Station: M08A
+     Lon, Lat, Elev: -124.8953,  44.1187,  -0.126
+     Start Date: 2011-10-20 00:00:00
+     End Date:   2012-07-18 23:59:59
+     Status:     open
+       Selected Channel: BH
+         Locations:  --
+         Start Date: 2011-10-20 23:50:00
+         End Date:   2012-07-18 23:06:00
+    Added as: 7D.M08A
+
+ 
+  Pickling to ./Data/sta_query.pkl
+  Saving csv to: ./Data/sta_query.csv
